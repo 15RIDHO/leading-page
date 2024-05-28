@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana,
+    Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightpink;
+}
+
+div {
+widht: 80%
+box-sizing: border-box;
+margin: auto;
+}
+
+.header {
+    background-color: rgb(104, 104, 196);
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.nav {
+    background-color: brown;
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+.nav ul li a:hover {
+    color: rgb(104, 104, 196);
+}
+.main {
+    display: flex;
+    background-color: white;
+}
+.content {
+
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    padding: 20px;
+}
+
+.content .artikel{
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    border: 0cqw ;
+}
